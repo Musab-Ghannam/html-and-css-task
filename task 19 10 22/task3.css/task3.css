@@ -1,0 +1,59 @@
+.about h2{
+
+background-color: rgb(130, 171, 208);
+color: rgb(0, 166, 255);
+
+}
+
+.about span{
+
+
+color: blue;
+font-size: 20px;
+
+
+}
+.courses h2{
+
+    background-color: rgb(130, 171, 208);
+    color: rgba(22, 40, 70, 0.344);
+
+}
+
+.courses .GRAY{
+
+background-color: rgb(204, 199, 199);
+
+}
+
+.courses .blue{
+    color: rgba(22, 40, 70, 0.344);
+background-color: rgb(204, 199, 199);
+
+}
+
+
+.courses .BL{
+
+    color: blue;
+
+}
+
+.intrests h2{
+    background-color: rgb(130, 171, 208);
+    color: rgba(22, 40, 70, 0.344);
+}
+
+.intrests span{
+
+
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intrests  .square{
+
+    font-weight: bold;
+    display: block;
+}
