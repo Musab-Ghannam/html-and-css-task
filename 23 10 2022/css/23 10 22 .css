@@ -1,0 +1,134 @@
+.task .or{
+color: orange;
+font-size: 15PX;
+
+
+}
+
+
+
+
+.task .BACK{
+
+    background-image: url(/pict/2012\ HD\ Wallpapers\ 7.jpg) ;
+    background-size: cover;
+   
+}
+
+
+
+/* dlkdldldl */
+
+.imp{
+
+    background-color: wheat;
+height: 1400px;
+   
+}
+
+
+
+.imp .block{
+
+    border: 1px solid black;
+    margin-top: 100px;
+    background-color: white;
+    line-height: 1.8;
+    margin: 15px;
+ padding: 50px;
+}
+
+.block #orange{
+
+    background-color: orange;
+    font-weight: bold;
+}
+
+.block #yellow{
+
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.imp .block:last-child{
+color: red;
+border: 1px dotted red;
+
+}
+
+.block .pink{
+
+    border: 1px dotted red;
+}
+
+/* dlkdldldl */
+
+
+.yes .one{
+
+
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.yes h1{
+
+    float: right;
+}
+
+.yes .sec{
+font-size: 50px;
+
+}
+
+.yes .third{
+
+    color: rgba(208, 192, 166, 0.884);
+    font-size: 50px;
+    float: right;
+}
+
+/* dlkdldldl */
+
+.numb{
+
+
+    margin-bottom: 50px;
+}
+.numb .block{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+/* dlkdldldl */
+
+.floating{
+    background-color: pink;
+    height: 1400px;
+}
+
+.floating .firstt{
+
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    overflow: hidden;
+
+
+}
+
+textarea{
+
+    font-weight: bold;
+    font-size: 15px;
+    border: 10px solid black;
+}
