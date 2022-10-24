@@ -62,6 +62,7 @@ border: 1px dotted red;
     border: 1px dotted red;
 }
 
+
 /* dlkdldldl */
 
 
@@ -133,3 +134,9 @@ textarea{
     font-size: 15px;
     border: 10px solid black;
 }
+.block:nth-child(1),.block:nth-child(5),.block:nth-child(7),.block:nth-child(9),.block:nth-child(3)    {
+
+    display: none;
+}
+
+
