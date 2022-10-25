@@ -1,0 +1,35 @@
+.pic img{
+    width: 481px;
+    height: 300px;
+   
+}
+
+
+.pic{
+
+    display: inline-block;
+   
+    margin: 0px auto;
+   
+}
+
+@media(min-width:0px) and (max-width:480px){
+
+.pic img{
+width: 305px;
+height: 150px;
+margin: 0px auto;
+
+}
+
+}
+
+
+@media(min-width:481px) and (max-width:768px){
+
+  .pic img{
+    width:366px;
+    height: 250px;
+    margin: 0px auto;
+    padding-left: 5px;
+  }}
