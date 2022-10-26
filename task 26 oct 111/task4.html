@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg  bg-dark p-1">
+    <!-- <nav class="navbar navbar-expand-lg  bg-dark p-1">
         <div class="container">
       
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -20,6 +20,10 @@
               <li class="nav-item">
                 <a class="nav-link " href="#" style="color:rgba(255, 255, 255, 0.662)">Home</a>
               </li>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
 
               <li class="nav-item">
@@ -34,8 +38,16 @@
                 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgba(255, 255, 255, 0.662)">
                   Dropdown
                 </a>
-              
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
+              
+           
             
                 
                   
@@ -53,20 +65,82 @@
                
               </form>
             </ul>
-        </nav>
-        <div class="p-3 mb-2 bg-light text-dark ">
-            
-            <div class="container ms-5 ps-5">
-            
-            <p class="h1 ps-5 ms-5 ">Hello,world</p>
+        </nav> -->
+      <!-- </start nav> --> 
+
+
+
+
+
+
+
+
+
+      <nav class="navbar navbar-expand-lg bg-dark pb-1">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="color:rgba(255, 255, 255, 0.607) ;">Bootstrap Mini-project</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color:white ;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ps-4" aria-current="page" href="#" style="color:rgba(255, 255, 255, 0.607) ;" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4" href="#" style="color:rgb(255, 255, 255) ; background-color: black;">About</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#" style="color:rgba(255, 255, 255, 0.57) ">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgba(255, 255, 255, 0.607) ;">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 " type="Email" placeholder="Email" aria-label="Search">
+              <input class="form-control me-2 " type="password" placeholder="Password" aria-label="Search">
+              <button class="btn btn-outline-success " type="submit" style="background-color: green;color:white;width:150px ;">sign in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <!-- </nav> --> 
+
+
+
+
+
+
+
+
+        <div class="container-fluid  bg-light">
         
-        <p class=" ps-5 ms-5 pt-3">this is exersices #9.it includes a large callout called jumbotron and three supporting pieces of content </p>
+            
+            <div class="container  py-5">
+            
+            <p class="h1 mt-2 ">Hello,world</p>
+        
+        <p class="  pt-3">this is exersices #9.it includes a large callout called jumbotron and three supporting pieces of content </p>
 
-        <button type="button" class="btn btn-primary p-2 m-5" >Learn more</button>
+        <button type="button" class="btn btn-primary pt-1 mt-3" >Learn more</button>
         </div>
             
         </div>
-
+    
 
         
 
@@ -78,12 +152,14 @@
   </div>
 
 </div>
-<div class="container d-flex p-2">
+<div class="container">
+  <div class="row ms-auto">
+    <div class="col-sm-4">
 <div class="card"  style="border:none;">
     <div class="card-body">
       <h5 class="card-title h1">Heading</h5>
       
-      <p class="card-text w-18">Lorem ipsum dolor sit amet consectetur adi
+      <p class="card-text ">Lorem ipsum dolor sit amet consectetur adi
         pisicing elit. Beatae recusandae nisi velit nulla inventore sed 
         debitis maxime voluptatibus rerum consequatur
         ? Delectus earum </p>
@@ -94,13 +170,13 @@
             </span>
     </div>
   </div>
-
-
+</div>
+<div class="col-sm-4">
   <div class="card"  style="border:none;">
     <div class="card-body">
       <h5 class="card-title h1">Heading</h5>
       
-      <p class="card-text w-18">Lorem ipsum dolor sit amet consectetur adi
+      <p class="card-text ">Lorem ipsum dolor sit amet consectetur adi
         pisicing elit. Beatae recusandae nisi velit nulla inventore sed 
         debitis maxime voluptatibus rerum consequatur
         ? Delectus earum </p>
@@ -112,14 +188,14 @@
             </span>
     </div>
   </div>
+</div>
 
-
-
-  <div class="card"  style="border:none;">
+<div class="col-sm-4">
+  <div class="card "  style="border:none;">
     <div class="card-body">
       <h5 class="card-title h1">Heading</h5>
       
-      <p class="card-text w-18">Lorem ipsum dolor sit amet consectetur adi
+      <p class="card-text ">Lorem ipsum dolor sit amet consectetur adi
         pisicing elit. Beatae recusandae nisi velit nulla inventore sed 
         debitis maxime voluptatibus rerum consequatur
         ? Delectus earum </p>
@@ -131,7 +207,7 @@
     </div>
   </div>
 
-
+</div>
 </div>
 
 </body>
